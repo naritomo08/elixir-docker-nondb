@@ -75,9 +75,7 @@ mix phx.server
 
 ブラウザで以下のURLを参照してサイト参照できることを確認する。
 
-```bash
 http://localhost:4000
-```
 
 ### コンテナ停止
 

@@ -47,10 +47,7 @@ Docker を用いて Elixir/Phoenix アプリケーションの開発・学習を
 ### dockerコンテナ入手、デプロイ、立ち上げ
 
 ```bash
-curl -L -o temp.zip https://github.com/naritomo08/elixir-docker-nondb/archive/refs/heads/main.zip
-unzip temp.zip
-rm temp.zip
-mv elixir-docker-nondb-main elixir-docker-nondb
+git clone https://github.com/naritomo08/elixir-docker-nondb.git elixir-docker-nondb
 cd elixir-docker-nondb
 sudo bin/setup.sh
 sudo bin/start.sh

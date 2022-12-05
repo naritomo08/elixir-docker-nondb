@@ -1,4 +1,4 @@
-FROM elixir:1.11.3
+FROM elixir:1.13.4
 
 ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn
 ENV DEBIAN_FRONTEND noninteractive
@@ -27,4 +27,4 @@ WORKDIR /apps
 
 RUN mix local.hex --force
 RUN mix local.rebar --force
-RUN mix archive.install --force hex phx_new 1.5.7
+RUN mix archive.install --force hex phx_new 1.6.15

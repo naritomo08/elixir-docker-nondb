@@ -78,8 +78,6 @@ mix phx.new testsite --no-ecto
 cd testsite
 vi config/dev.exs
 22行目を"http: [ip: {0, 0, 0, 0}, port: 4000],"にする。
-vi config/test.exs
-19行目を"http: [ip: {0, 0, 0, 0}, port: 4002],"にする。
 ```
 
 ### サイト立ち上げ

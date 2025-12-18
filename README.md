@@ -6,9 +6,9 @@ Docker を用いて Elixir/Phoenix アプリケーションの開発・学習を
 
 ## 構築される環境
 
-* Erlang/OTP 24
-* Elixir 1.13.4
-* Phoenix 1.6.15
+* Erlang/OTP 25
+* Elixir 1.14.3
+* Phoenix 1.7.1
 
 ## 必要なソフトウェア
 
@@ -56,7 +56,7 @@ Docker Desktopを使用しない(できない)場合、以下のサイトを参�
 ### dockerコンテナ入手、デプロイ、立ち上げ
 
 ```bash
-git clone -b phx1.6 https://github.com/naritomo08/elixir-docker-nondb.git elixir-docker-nondb
+git clone -b phx1.7 https://github.com/naritomo08/elixir-docker-nondb.git elixir-docker-nondb
 cd elixir-docker-nondb
 sudo bin/setup.sh
 sudo bin/start.sh
